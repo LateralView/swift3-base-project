@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		8210EFF3F4EEDB0254571B49 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BDEBAACF49340AB137011 /* Pods_BaseProject.framework */; };
 		83D7EEE31E8ACBEC0037EE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */; };
-		83D7EEE51E8ACBEC0037EE7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEE41E8ACBEC0037EE7E /* ViewController.swift */; };
-		83D7EEE81E8ACBEC0037EE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EEE61E8ACBEC0037EE7E /* Main.storyboard */; };
+		83D7EEE81E8ACBEC0037EE7E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EEE61E8ACBEC0037EE7E /* Login.storyboard */; };
 		83D7EEEA1E8ACBEC0037EE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EEE91E8ACBEC0037EE7E /* Assets.xcassets */; };
 		83D7EEED1E8ACBEC0037EE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EEEB1E8ACBEC0037EE7E /* LaunchScreen.storyboard */; };
 		83D7EEF51E8ACC030037EE7E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEF41E8ACC030037EE7E /* Strings.swift */; };
@@ -23,14 +22,22 @@
 		83D7EF071E8AD3300037EE7E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF061E8AD3300037EE7E /* Date.swift */; };
 		83D7EF091E8AD4B10037EE7E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF081E8AD4B10037EE7E /* Data.swift */; };
 		83D7EF0B1E8AD4CC0037EE7E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF0A1E8AD4CC0037EE7E /* UIImage.swift */; };
+		83D7EF0D1E8BEAE30037EE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EF0C1E8BEAE30037EE7E /* Main.storyboard */; };
+		83D7EF0F1E8BF5550037EE7E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF0E1E8BF5550037EE7E /* HomeVC.swift */; };
+		83D7EF121E8BF5910037EE7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF111E8BF5910037EE7E /* User.swift */; };
+		83D7EF141E8BF67F0037EE7E /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF131E8BF67F0037EE7E /* Identifiers.swift */; };
+		83D7EF171E8C04570037EE7E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF161E8C04570037EE7E /* LoginVC.swift */; };
+		83D7EF191E8C04660037EE7E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF181E8C04660037EE7E /* SignInVC.swift */; };
+		83D7EF1B1E8C046F0037EE7E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF1A1E8C046F0037EE7E /* SignUpVC.swift */; };
+		83D7EF1D1E8C04900037EE7E /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF1C1E8C04900037EE7E /* ForgotPasswordVC.swift */; };
+		83D7EF1F1E8C171C0037EE7E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EF1E1E8C171C0037EE7E /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AFD647744F53B86DD8412D6 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		83D7EEDF1E8ACBEC0037EE7E /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83D7EEE41E8ACBEC0037EE7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83D7EEE71E8ACBEC0037EE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D7EEE71E8ACBEC0037EE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		83D7EEE91E8ACBEC0037EE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D7EEEC1E8ACBEC0037EE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D7EEEE1E8ACBEC0037EE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +51,15 @@
 		83D7EF061E8AD3300037EE7E /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		83D7EF081E8AD4B10037EE7E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		83D7EF0A1E8AD4CC0037EE7E /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		83D7EF0C1E8BEAE30037EE7E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		83D7EF0E1E8BF5550037EE7E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		83D7EF111E8BF5910037EE7E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		83D7EF131E8BF67F0037EE7E /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		83D7EF161E8C04570037EE7E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		83D7EF181E8C04660037EE7E /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		83D7EF1A1E8C046F0037EE7E /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		83D7EF1C1E8C04900037EE7E /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		83D7EF1E1E8C171C0037EE7E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A83BDEBAACF49340AB137011 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAC2FA10525F5B504CD08B8 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +117,7 @@
 				83D7EEFA1E8ACE180037EE7E /* ViewControllers */,
 				83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */,
 				83D7EEFB1E8ACE3B0037EE7E /* Storyboards */,
+				83D7EF101E8BF5780037EE7E /* Models */,
 				83D7EEE91E8ACBEC0037EE7E /* Assets.xcassets */,
 				83D7EEEE1E8ACBEC0037EE7E /* Info.plist */,
 				83D7EEFD1E8ACE610037EE7E /* Extensions */,
@@ -112,7 +129,8 @@
 		83D7EEFA1E8ACE180037EE7E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				83D7EEE41E8ACBEC0037EE7E /* ViewController.swift */,
+				83D7EF151E8C03F00037EE7E /* Login */,
+				83D7EF0E1E8BF5550037EE7E /* HomeVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -120,7 +138,8 @@
 		83D7EEFB1E8ACE3B0037EE7E /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				83D7EEE61E8ACBEC0037EE7E /* Main.storyboard */,
+				83D7EF0C1E8BEAE30037EE7E /* Main.storyboard */,
+				83D7EEE61E8ACBEC0037EE7E /* Login.storyboard */,
 				83D7EEEB1E8ACBEC0037EE7E /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
@@ -132,6 +151,7 @@
 				83D7EEF41E8ACC030037EE7E /* Strings.swift */,
 				83D7EEF61E8ACD400037EE7E /* Colors.swift */,
 				83D7EEF81E8ACDC30037EE7E /* Fonts.swift */,
+				83D7EF131E8BF67F0037EE7E /* Identifiers.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -148,6 +168,26 @@
 				83D7EF0A1E8AD4CC0037EE7E /* UIImage.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		83D7EF101E8BF5780037EE7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83D7EF111E8BF5910037EE7E /* User.swift */,
+				83D7EF1E1E8C171C0037EE7E /* Router.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		83D7EF151E8C03F00037EE7E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				83D7EF161E8C04570037EE7E /* LoginVC.swift */,
+				83D7EF181E8C04660037EE7E /* SignInVC.swift */,
+				83D7EF1A1E8C046F0037EE7E /* SignUpVC.swift */,
+				83D7EF1C1E8C04900037EE7E /* ForgotPasswordVC.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +255,8 @@
 			files = (
 				83D7EEED1E8ACBEC0037EE7E /* LaunchScreen.storyboard in Resources */,
 				83D7EEEA1E8ACBEC0037EE7E /* Assets.xcassets in Resources */,
-				83D7EEE81E8ACBEC0037EE7E /* Main.storyboard in Resources */,
+				83D7EEE81E8ACBEC0037EE7E /* Login.storyboard in Resources */,
+				83D7EF0D1E8BEAE30037EE7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,30 +315,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D7EEE51E8ACBEC0037EE7E /* ViewController.swift in Sources */,
+				83D7EF121E8BF5910037EE7E /* User.swift in Sources */,
 				83D7EF031E8AD1E60037EE7E /* String.swift in Sources */,
 				83D7EEF91E8ACDC30037EE7E /* Fonts.swift in Sources */,
 				83D7EF091E8AD4B10037EE7E /* Data.swift in Sources */,
+				83D7EF141E8BF67F0037EE7E /* Identifiers.swift in Sources */,
 				83D7EF0B1E8AD4CC0037EE7E /* UIImage.swift in Sources */,
+				83D7EF1F1E8C171C0037EE7E /* Router.swift in Sources */,
 				83D7EEF71E8ACD400037EE7E /* Colors.swift in Sources */,
 				83D7EF071E8AD3300037EE7E /* Date.swift in Sources */,
 				83D7EEF51E8ACC030037EE7E /* Strings.swift in Sources */,
 				83D7EEE31E8ACBEC0037EE7E /* AppDelegate.swift in Sources */,
+				83D7EF191E8C04660037EE7E /* SignInVC.swift in Sources */,
 				83D7EEFF1E8ACE940037EE7E /* UIView.swift in Sources */,
+				83D7EF0F1E8BF5550037EE7E /* HomeVC.swift in Sources */,
 				83D7EF051E8AD2900037EE7E /* UIDevice.swift in Sources */,
+				83D7EF1D1E8C04900037EE7E /* ForgotPasswordVC.swift in Sources */,
 				83D7EF011E8ACF0A0037EE7E /* UIViewController.swift in Sources */,
+				83D7EF171E8C04570037EE7E /* LoginVC.swift in Sources */,
+				83D7EF1B1E8C046F0037EE7E /* SignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83D7EEE61E8ACBEC0037EE7E /* Main.storyboard */ = {
+		83D7EEE61E8ACBEC0037EE7E /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				83D7EEE71E8ACBEC0037EE7E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		83D7EEEB1E8ACBEC0037EE7E /* LaunchScreen.storyboard */ = {
@@ -409,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PUW4LLWZC;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.lateralview.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PUW4LLWZC;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.lateralview.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +499,7 @@
 				83D7EEF31E8ACBEC0037EE7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

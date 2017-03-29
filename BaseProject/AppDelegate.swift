@@ -17,7 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        //FIRApp.configure()
+        // This is used for Firebase Crash Reporting.
+        // You need to add a GoogleServices file before uncommenting this line
+        
+        // FIRApp.configure()
+        
+        Router.instance.start()
         
         return true
     }
