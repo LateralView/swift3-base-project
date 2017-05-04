@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A7114A1EBBB3C30015715D /* ConditionalConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A711491EBBB3C30015715D /* ConditionalConstraint.swift */; };
 		8210EFF3F4EEDB0254571B49 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BDEBAACF49340AB137011 /* Pods_BaseProject.framework */; };
 		83D7EEE31E8ACBEC0037EE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */; };
 		83D7EEE81E8ACBEC0037EE7E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D7EEE61E8ACBEC0037EE7E /* Login.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A711491EBBB3C30015715D /* ConditionalConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalConstraint.swift; sourceTree = "<group>"; };
 		4AFD647744F53B86DD8412D6 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		83D7EEDF1E8ACBEC0037EE7E /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D7EEE21E8ACBEC0037EE7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				83D7EEF61E8ACD400037EE7E /* Colors.swift */,
 				83D7EEF81E8ACDC30037EE7E /* Fonts.swift */,
 				83D7EF131E8BF67F0037EE7E /* Identifiers.swift */,
+				06A711491EBBB3C30015715D /* ConditionalConstraint.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				83D7EF011E8ACF0A0037EE7E /* UIViewController.swift in Sources */,
 				83D7EF171E8C04570037EE7E /* LoginVC.swift in Sources */,
 				83D7EF1B1E8C046F0037EE7E /* SignUpVC.swift in Sources */,
+				06A7114A1EBBB3C30015715D /* ConditionalConstraint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

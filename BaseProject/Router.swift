@@ -13,24 +13,22 @@ class Router {
     static let instance = Router()
     
     private init() {
+        
     }
     
     func start() {
-        
         if User.current.isSignedIn {
             showHome()
         } else {
             showLogin()
         }
-        
     }
     
     func showHome() {
         let sb = UIStoryboard(name: Identifiers.storyboards.main, bundle: nil)
         if let vc = sb.instantiateInitialViewController(),
             let delegate = UIApplication.shared.delegate {
-            delegate.window
-            delegate.rootViewController = vc
+            delegate.window??.rootViewController = vc
         }
     }
     
