@@ -6,7 +6,6 @@
 //  Copyright © 2017 LateralView. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension String
