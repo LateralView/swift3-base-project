@@ -21,7 +21,7 @@ extension UIImage {
         return newImage
     }
     
-    class func imageWithColor(_ color: UIColor) -> UIImage?
+    func imageWithColor(_ color: UIColor) -> UIImage?
     {
         let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
