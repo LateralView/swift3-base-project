@@ -8,4 +8,11 @@ target 'BaseProject' do
   # Pods for BaseProject
   pod 'Firebase/Crash'
 
+  # Testing Pods for BaseProject
+  target 'BaseProjectTests' do
+        inherit! :complete
+        pod 'Nimble'
+        pod 'Quick'
+    end
+
 end

@@ -23,10 +23,14 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
+  - Nimble (6.1.0)
   - Protobuf (3.2.0)
+  - Quick (1.1.0)
 
 DEPENDENCIES:
   - Firebase/Crash
+  - Nimble
+  - Quick
 
 SPEC CHECKSUMS:
   Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
@@ -35,8 +39,10 @@ SPEC CHECKSUMS:
   FirebaseCrash: db4c05d9c75baa050744d31b36357c8f1efba481
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
   Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
 
-PODFILE CHECKSUM: 909efe85cdc1886578041d89fb43dc6ab209561e
+PODFILE CHECKSUM: 654ddb959f9262a272ec3a9685105211bc2b14d6
 
 COCOAPODS: 1.2.0
